@@ -40,6 +40,7 @@ trait Model
             ->method('getScoutKey')
             ->willReturn($params['key'] ?? 1);
 
+
         $mock
             ->method('trashed')
             ->willReturn($params['trashed'] ?? false);
